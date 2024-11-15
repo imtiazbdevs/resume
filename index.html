@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body class="">
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./assets/img/profile.jpg" alt="Imtiaz Ahmed" class="home__img" />
+                <h1 class="home__title">Md. Imtiaz Ahmed</h1>
+                <h3 class="home__proffesion">WordPress Developer</h3>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__informatiion"> <i class="bx bxs-map"></i> Mirpur, Dhaka, Bangladesh </span>
+                <span class="home__informatiion"> <i class="bx bxs-phone"></i> +880 1711 227979 </span>
+                <span class="home__informatiion"> <i class="bx bxs-envelope"></i> imtiazbdevs@gmail.com </span>
+              </div>
+            </div>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i class="bx bx-download generate-pdf" id="resume-btn"></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">Social</h2>
+
+            <div class="social__container bd-grid">
+              <a href="https://www.linkedin.com/in/imtiazbdevs" target="_blank" class="social__link"> <i class="bx bxl-linkedin-square"></i> @imtiazbdevs </a>
+              <a href="https://www.facebook.com/imtiazbdevs" target="_blank" class="social__link"> <i class="bx bxl-facebook-square"></i> @imtiazbdevs </a>
+              <a href="https://twitter.com/imtiazbdevs" target="_blank" class="social__link"> <i class="bx bxl-twitter"></i> @imtiazbdevs </a>
+              <a href="https://github.com/imtiazbdevs" target="_blank" class="social__link"> <i class="bx bxl-github"></i> @imtiazbdevs </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              I’m a WordPress Developer. I've 3 years of experience as a WordPress Developer and have obtained the skills and knowledge, which are necessary to make your project successful.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Bachelor of Science</h3>
+                  <span class="education__studies">University of Dhaka</span>
+                  <span class="education__year">2016 - 2020</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">HSC</h3>
+                  <span class="education__studies">BCIC College, Mirpur</span>
+                  <span class="education__year">2013 - 2015</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SSC</h3>
+                  <span class="education__studies"> Mirpur Bangla School & College </span>
+                  <span class="education__year">2011 - 2013</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"></span>HTML & SCSS</li>
+                <li class="skills__name"><span class="skills__circle"></span>BOOTSTRAP</li>
+                <li class="skills__name"><span class="skills__circle"></span> JAVASCRIPT</li>
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"></span>JQUERY</li>
+                <li class="skills__name"><span class="skills__circle"></span>PHP & MYSQL</li>
+                <li class="skills__name"><span class="skills__circle"></span>WORDPRESS</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== Experience ==========-->
+          <section class="project section" id="project">
+            <h2 class="section-title">EXPERIENCE</h2>
+            <div class="project__container bd-grid">
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                </div>
+                <div class="project__data">
+                  <h3 class="project__title">WordPress Developer</h3>
+                  <span class="project__company">From 12 Feb 2022 to Current | Bdevs </span>
+                  <ul class="job_list pt-10">
+                    <li>Develop the high quality wordpress theme.</li>
+                    <li>Develop advanced elementor widgets.</li>
+                    <li>Create custom themes from scracht or modifying existing themes to meet the client specifications.</li>
+                    <li>Use PHP, JavaScript for wordpress functionalities such as custom post types, taxonamies, theme options</li>
+                    <li>Work with designers, content creators and other developers to ensure cohesive project outcomes</li>
+                    <li>Provide technical support and troubleshooting for theme users, fix the theme errors or bugs.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project__content d-none">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <!-- <span class="project__line"></span> -->
+                </div>
+                <div class="project__data">
+                  <h3 class="project__title">Web Designer</h3>
+                  <span class="project__company">From 12 Jan 2021 to 2022 | UnlockLive IT Limited </span>
+                  <p>
+                    Proficient in HTML5, CSS3, and JavaScript, I focus on clean, efficient code and a seamless user experience. Passionate about front-end development and always eager to stay updated
+                    with the latest web technologies
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== project ==========-->
+          <section class="project section" id="project">
+            <h2 class="section-title">project</h2>
+            <div class="project__container bd-grid">
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Tourigo - Tour & Travel WordPress Theme</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://envato.bdevs.net/tourigo/" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Royel - Hotel Booking WordPress Theme</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://envato.bdevs.net/royel/" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Kindedo - Kindergarten & School WordPress Theme</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://codeskdhaka.com/wp/kindedo/" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Delport - Logistics Business WordPress Theme</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://codeskdhaka.com/wp/delport/" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Dofix - Plumbing Repair & Store WordPress Theme</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://envato.bdevs.net/dofix/" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Finwise - Online Banking & Finance WordPress Theme</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://envato.bdevs.net/finwise/" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Paradox - Creative Agency HTML5 Template</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://html.bdevs.net/paradox_prev/index.html" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                </div>
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Reallow - Real Estate HTML5 Template</h3>
+                  <span class="project__company">
+                    <a target="_blank" href="https://html.bdevs.net/reallow.prev/index.html" target="_blank">Demo link</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container bd-grid">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name"><span class="languages__circle"></span>Bangla</li>
+                <li class="languages__name"><span class="languages__circle"></span>English</li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section pt-0">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests__container bd-grid">
+              <div class="ineterests__content">
+                <i class="bx bx-headphone"></i>
+                <span class="interests__name">Music</span>
+              </div>
+
+              <div class="ineterests__content">
+                <i class="bx bxs-plane-alt"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="ineterests__content">
+                <i class="bx bx-book"></i>
+                <span class="interests__name">Reading</span>
+              </div>
+
+              <div class="ineterests__content">
+                <i class="bx bx-dumbbell"></i>
+                <span class="interests__name">Fitness</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
